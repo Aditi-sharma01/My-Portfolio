@@ -2,32 +2,28 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      category: 'Languages',
-      skills: ['C', 'Java', 'Python', 'JavaScript'],
-    },
-    {
-      category: 'Frontend',
-      skills: ['HTML', 'CSS', 'ReactJS', 'TailwindCSS'],
-    },
-    {
-      category: 'Backend',
-      skills: ['Node.js', 'Flask', 'RESTful APIs'],
-    },
-    {
-      category: 'Database',
-      skills: ['MongoDB', 'SQL'],
-    },
-    {
-      category: 'AI/ML',
-      skills: ['TensorFlow', 'Machine Learning', 'LSTM', 'SVM', 'YOLO', 'OCR', 'CRNN', 'MobileNetV2'],
-    },
-    {
-      category: 'Tools & DevOps',
-      skills: ['Git', 'GitHub', 'Botpress', 'Postman', 'VS Code'],
-    },
-  ]
+const skillCategories = [
+  {
+    category: 'Frontend',
+    skills: ['React', 'JavaScript', 'Tailwind CSS', 'HTML/CSS'],
+  },
+  {
+    category: 'Build & Tools',
+    skills: ['Vite', 'Git', 'GitHub', 'VS Code'],
+  },
+  {
+    category: 'Backend',
+    skills: ['Node.js', 'REST APIs', 'Flask'],
+  },
+  {
+    category: 'Libraries & Packages',
+    skills: ['Framer Motion', 'React Icons', 'EmailJS'],
+  },
+  {
+    category: 'Other',
+    skills: ['React Scroll', 'PostCSS'],
+  },
+]
 
   const containerVariants = {
     hidden: { opacity: 0 },

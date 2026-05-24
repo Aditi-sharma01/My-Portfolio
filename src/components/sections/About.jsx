@@ -25,7 +25,7 @@ const About = () => {
   const stats = [
     { label: 'CGPA', value: '7.62' },
     { label: 'Projects Built', value: '10+' },
-    { label: 'Technologies', value: '20+' },
+    { label: 'Technologies', value: '10+' },
     { label: 'Hackathons', value: '5+' },
   ]
 
